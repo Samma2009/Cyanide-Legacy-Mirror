@@ -1,0 +1,52 @@
+{
+  "type": "compare",
+  "message0": "%1 %2 %3 %4",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "LEFT"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "MIDDLE",
+      "options": [
+        [
+          "=",
+          "=="
+        ],
+        [
+          "!=",
+          "!="
+        ],
+        [
+          ">",
+          ">"
+        ],
+        [
+          "<",
+          "<"
+        ],
+        [
+          "<=",
+          "<="
+        ],
+        [
+          ">=",
+          ">="
+        ]
+      ]
+    },
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_value",
+      "name": "RIGHT"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": 210,
+  "tooltip": "",
+  "helpUrl": ""
+}

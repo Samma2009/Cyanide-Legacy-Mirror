@@ -1,0 +1,15 @@
+{
+  "type": "printline",
+  "message0": "print line %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "message"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 160,
+  "tooltip": "",
+  "helpUrl": ""
+}

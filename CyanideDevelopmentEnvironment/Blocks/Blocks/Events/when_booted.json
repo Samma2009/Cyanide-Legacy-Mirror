@@ -1,0 +1,17 @@
+{
+  "type": "when_booted",
+  "message0": "on boot %1 %2",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "script"
+    }
+  ],
+  "inputsInline": false,
+  "colour": 65,
+  "tooltip": "",
+  "helpUrl": ""
+}
